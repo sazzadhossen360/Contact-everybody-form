@@ -1,0 +1,477 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+/*===================================== header-style start====================================== */
+.header-area {
+    padding: 16px;
+}
+.logo img {
+    max-width: 40px;
+    height: 40px;
+    padding-top: -18px;
+    padding-right: 10px;
+    padding-top: -27px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -24px;
+}
+.left-content h3 {
+    font-size: 27px;
+    color: #15017F;
+}
+.left-content h3 span {
+    font-size: 60%;
+    color: #707072;
+}
+ul.right-content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+ul.right-content li {
+    display: inline-block;
+}
+ul.right-content li a {
+    display: block;
+    padding: 5px 10px;
+    color: #BCACDB;
+    transition: 0.5s;
+}
+.section-padding {
+    background: #E7EFF9;
+    height: 700px;
+    padding: 30px 0;
+}
+.area {
+    height: 70px;
+    background: #F0F4F7;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+.input-content input {
+    float: right;
+}
+.input-content i {
+    position: relative;
+}
+
+.input-content input {
+    text-align: right;
+    background: #F0F6F8;
+    border: none;
+}
+
+.input-content i::before {
+    position: absolute;
+    top: -11px;
+    left: 374px;
+    opacity: 0.7;
+}
+.col-md-6.right {
+    margin-left: -24px;
+}
+.input-area input {
+    width: 95%;
+    outline: 0;
+    margin-top: 13px;
+    border:none;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-area i.fa-times::before {
+    position: absolute;
+    top: 29px;
+    right: 63px;
+}
+i.fas.fa-times {
+    display: inline;
+}
+.fa-search{
+    cursor: pointer;
+    color: #fff;
+}
+
+.fa-search:before {
+    content: "\f002";
+    position: absolute;
+    top: 12px;
+    right: 6px;
+    background: blue;
+    padding: 15px;
+    border-radius: 5px;
+}
+ul.right-content li:hover a {
+    border-bottom: 1px solid #ddd;
+}
+p.single-content {
+    text-align: center;
+    display: inline-block;
+    padding: 40px;
+    width: 100%;
+}
+/*===================================== header-style end====================================== */
+/*======================================== table style start============================== */
+.header-area {
+    padding: 16px;
+}
+.logo img {
+    max-width: 40px;
+    height: 40px;
+    padding-top: -18px;
+    padding-right: 10px;
+    padding-top: -27px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -24px;
+}
+.left-content h3 {
+    font-size: 27px;
+    color: #15017F;
+}
+.left-content h3 span {
+    font-size: 60%;
+    color: #707072;
+}
+ul.right-content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+li {
+    display: inline-block;
+}
+ul.right-content li a {
+    display: block;
+    padding: 5px 10px;
+    color: #BCACDB;
+    transition: 0.5s;
+}
+/*====================header start end================ */
+.section-padding {
+    background: #E7EFF9;
+    height: 700px;
+    padding: 30px 0;
+}
+.area {
+    height: 70px;
+    background: #F0F4F7;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+.input-content input {
+    float: right;
+}
+.input-content i {
+    position: relative;
+}
+
+.input-content input {
+    background: #F0F6F8;
+    border: none;
+    width: 30%;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 8px;
+}
+.input-content i.fas.fa-trash {
+    opacity: 0.5;
+}
+.input-content i.fa-trash::before {
+    position: absolute;
+    top: -6px;
+    left: 403px;
+    opacity: 0.7;
+}
+.right-box {
+    margin-left: -24px;
+}
+
+.input-area input {
+    width: 95%;
+    outline: 0;
+    margin-top: 13px;
+    border:none;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-area i.fa-times::before {
+    position: absolute;
+    top: 29px;
+    right: 63px;
+}
+i.fas.fa-times {
+    display: inline;
+    opacity: 0.3;
+}
+.fa-search{
+    cursor: pointer;
+    color: #fff;
+}
+
+.fa-search:before {
+    content: "\f002";
+    position: absolute;
+    top: 12px;
+    right: 6px;
+    background: blue;
+    padding: 15px;
+    border-radius: 5px;
+}
+ul.right-content li:hover a {
+    border-bottom: 1px solid #ddd;
+}
+/*======================================== table style end============================== */
+
+/*======================================== registration-form style start============================== */
+.section-form {
+    background: #E7EFF9;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+.contact-box{
+    transition: 0.3s;
+    padding: 0 30px;
+}
+.contact-box:hover {
+    box-shadow: 1px 1px 1px 5px #ddd;
+}
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.lead {
+    font-size: 16px;
+}
+form label {
+    display: block;
+}
+form input {
+    width: 100%;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #E3EBF6;
+}
+i.far.fa-credit-card {
+    position: absolute;
+    right: 29px;
+    top: 42%;
+}
+i.fas.fa-id-card-alt {
+    position: absolute;
+    top: 54%;
+    right: 28px;
+}
+.content-box {
+    background: #E8ECF1;
+    padding: 15px 25px;
+    text-align: center;
+}
+.content-box {
+    background: #E8ECF1;
+    padding: 15px 25px;
+    text-align: center;
+    transition: 0.3s;
+
+}
+.row.content-title {
+    padding: 25px 0;
+}
+.content-box:hover {
+    background: #BDEECB;
+}
+button {
+    display: block;
+    width: 100%;
+    background: #292F9C;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    text-transform: capitalize;
+}
+i.fas.fa-lock {
+    padding-left: 5px;
+}
+p.footer-text {
+    text-align: center;
+    padding-top: 10px;
+    color: #B7B2B0;
+    padding-bottom:20px;
+}
+a.color-content{
+    color:black;
+}
+
+/*======================================== registration-form style end============================== */
+
+
+/* =================================================log in form style start=========================== */
+.header-style {
+    height: 80px;
+}
+.header-right {
+    position: absolute;
+    top: -23px;
+    right: 113px;
+    
+}
+
+button.header-btn {
+    background: #FCFCFB;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.left-content h3 {
+    font-size: 27px;
+    color: #15017F;
+}
+.left-content h3 span {
+    font-size: 60%;
+    color: #707072;
+}
+ul.right-content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.section-form {
+    background: #E7EFF9;
+    padding-top: 30px;
+    padding-bottom:100px;
+   
+}
+.input-box:hover {
+    box-shadow: 1px 1px 1px 5px #ddd;
+}
+.input-box {
+    background-color: #f8f9fa!important;
+    padding-right: 79px;
+    padding-left: 70px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.lead {
+    font-size: 16px;
+}
+form label {
+    display: block;
+}
+form input {
+    width: 100%;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #E3EBF6;
+}
+i.fas.fa-id-card-alt {
+    position: absolute;
+    top: 54%;
+    right: 28px;
+}
+.content-box {
+    background: #E8ECF1;
+    padding: 15px 25px;
+    text-align: center;
+}
+.content-box {
+    background: #E8ECF1;
+    padding: 15px 25px;
+    text-align: center;
+    transition: 0.3s;
+
+}
+.row.content-title {
+    padding: 25px 0;
+}
+.content-box:hover {
+    background: #BDEECB;
+}
+button {
+    display: inline-block;
+    width: 100%;
+    background: #292F9C;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+i.fas.fa-lock {
+    padding-left: 5px;
+}
+p.footer-text {
+    text-align: center;
+    padding-top: 10px;
+    color: #B7B2B0;
+    padding-bottom:20px;
+}
+a.boxed {
+    color: black;
+    font-size: 14px;
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    text-decoration: underline;
+}
+p.sign-up {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+.underline{
+    text-decoration: underline;
+}
+
+/* =================================================log in form style end=========================== */
+
