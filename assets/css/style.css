@@ -29,120 +29,7 @@ h6 {
 p:last-child {
     margin-bottom: 0
 }
-/*===================================== header-style start====================================== */
-.header-area {
-    padding: 16px;
-}
-.logo img {
-    max-width: 40px;
-    height: 40px;
-    padding-top: -18px;
-    padding-right: 10px;
-    padding-top: -27px;
-    display: inline-block;
-    position: absolute;
-    top: -6px;
-    left: -24px;
-}
-.left-content h3 {
-    font-size: 27px;
-    color: #15017F;
-}
-.left-content h3 span {
-    font-size: 60%;
-    color: #707072;
-}
-ul.right-content {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: right;
-}
-ul.right-content li {
-    display: inline-block;
-}
-ul.right-content li a {
-    display: block;
-    padding: 5px 10px;
-    color: #BCACDB;
-    transition: 0.5s;
-}
-.section-padding {
-    background: #E7EFF9;
-    height: 700px;
-    padding: 30px 0;
-}
-.area {
-    height: 70px;
-    background: #F0F4F7;
-    border:1px solid #ddd;
-    border-radius: 5px;
-    position: relative;
-}
-.input-content input {
-    float: right;
-}
-.input-content i {
-    position: relative;
-}
 
-.input-content input {
-    text-align: right;
-    background: #F0F6F8;
-    border: none;
-}
-
-.input-content i::before {
-    position: absolute;
-    top: -11px;
-    left: 374px;
-    opacity: 0.7;
-}
-.col-md-6.right {
-    margin-left: -24px;
-}
-.input-area input {
-    width: 95%;
-    outline: 0;
-    margin-top: 13px;
-    border:none;
-    border:1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.input-area i.fa-times::before {
-    position: absolute;
-    top: 29px;
-    right: 63px;
-}
-i.fas.fa-times {
-    display: inline;
-}
-.fa-search{
-    cursor: pointer;
-    color: #fff;
-}
-
-.fa-search:before {
-    content: "\f002";
-    position: absolute;
-    top: 12px;
-    right: 6px;
-    background: blue;
-    padding: 15px;
-    border-radius: 5px;
-}
-ul.right-content li:hover a {
-    border-bottom: 1px solid #ddd;
-}
-p.single-content {
-    text-align: center;
-    display: inline-block;
-    padding: 40px;
-    width: 100%;
-}
-/*===================================== header-style end====================================== */
 /*======================================== table style start============================== */
 .header-area {
     padding: 16px;
@@ -156,7 +43,7 @@ p.single-content {
     display: inline-block;
     position: absolute;
     top: -6px;
-    left: -24px;
+    left: 100px;
 }
 .left-content h3 {
     font-size: 27px;
@@ -181,7 +68,8 @@ ul.right-content li a {
     color: #BCACDB;
     transition: 0.5s;
 }
-/*====================header start end================ */
+
+/*====================table start end================ */
 .section-padding {
     background: #E7EFF9;
     height: 700px;
@@ -217,6 +105,10 @@ ul.right-content li a {
     top: -6px;
     left: 403px;
     opacity: 0.7;
+}
+input.history {
+    text-align: center;
+    padding-left: 46px;
 }
 .right-box {
     margin-left: -24px;
@@ -278,8 +170,8 @@ h2 {
     text-transform: capitalize;
     padding-top: 20px;
 }
-.lead {
-    font-size: 16px;
+.contact-pera {
+   font-size: 15px;
 }
 form label {
     display: block;
@@ -398,9 +290,6 @@ h2 {
     text-transform: capitalize;
     padding-top: 20px;
     font-weight: 500;
-}
-.lead {
-    font-size: 16px;
 }
 form label {
     display: block;
